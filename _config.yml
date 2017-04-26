@@ -23,14 +23,11 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
-<<<<<<< HEAD
 excerpt_separator: <!--more-->
-=======
-excerpt_separator:    <!--more-->
+
 show_related_posts:   false
 
 #Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
->>>>>>> refs/remotes/origin/master
