@@ -1,7 +1,17 @@
 ---
 layout: post
 title: Generalist Reel
-tags: [python, test]
+tags:
+- python
+- portfolio
+- shader
+- unity
+- gamedev
+- animation
+- rigging
+- maya
+- programming
+date: 01/08/2017
 ---
 <iframe src="https://player.vimeo.com/video/198592785" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
