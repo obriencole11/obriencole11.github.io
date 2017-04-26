@@ -248,3 +248,38 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Coles Theme */
+
+/* Background */
+.theme-base-cole {
+  background-color: #0f2a37;
+}
+
+/* Dark Blue*/
+.theme-base-cole .sidebar, code, pre, .message {
+  background-color: #0c232e;
+}
+
+/* Red */
+.theme-base-cole .content a,
+.theme-base-cole .related-posts li a:hover {
+  color: #b34040;
+}
+
+/* Gray */
+.theme-base-cole, .post-date {
+  color: #5b7a87;
+}
+
+/* White */
+.theme-base-cole h1, h2, h3, h4, h5, h6, 
+strong, 
+.masthead-title, .content .post-title a, 
+code,
+.message,
+blockquote,
+abbr,
+dt {
+  color: #e9faff;
+}
