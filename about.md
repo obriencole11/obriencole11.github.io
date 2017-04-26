@@ -2,29 +2,17 @@
 layout: page
 title: About
 ---
+![](/uploads/2017/04/26/newProfile2017.png)
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+As a generalist, I come from a background in 2D and 3D animation as well as a strong foundation in graphic design and programming. Aesthetically, I am drawn to vivid atmospheric and immersive experiences, and strive to create projects that explore new visual territory. On the development side, I enjoy challenging myself to create flexible and efficient animation workflows.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
+I studied animation at the Massachusetts College of Art and Design, where I helped lead the [Massart Game Design Club](https://www.facebook.com/groups/Massart.GDC/). While there I also worked at the game development company, [Harmonix](http://www.harmonixmusic.com/), working as an Animator and Artist for Rock Band 4. Beyond that, I primarily work on my own independent games as well as assist with the animation team for the [Skywind](https://www.youtube.com/watch?v=PewuaPKnhnc) project.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Feel free to shoot me an email at obriencole11[at]gmail[dot]com.
 
-## Setup
 
-Some fun facts about the setup of this project include:
+Click [here](http://obriencole11.github.io/portfolio/img/resume.pdf) for my current resume
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
