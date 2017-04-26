@@ -3,7 +3,7 @@ layout: post
 title: What's Jekyll?
 tags: [python, test]
 ---
-![placeholder](http://placehold.it/800x400 "Large example image")
+![placeholder](https://placehold.it/800x400 "Large example image")
 
 <!--more-->
 
