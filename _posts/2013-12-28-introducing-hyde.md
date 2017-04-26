@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Hyde
+tags: [Python, Test]
 ---
 ![placeholder](http://placehold.it/800x400 "Large example image")
 

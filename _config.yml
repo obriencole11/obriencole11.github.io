@@ -24,6 +24,7 @@ version:          2.1.0
 github:
   repo:           https://github.com/poole/hyde
 excerpt_separator:    <!--more-->
+show_related_posts:   false
 
 #Gems
 gems:
