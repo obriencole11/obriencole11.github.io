@@ -1,5 +1,21 @@
-test:
-  name: Test
+maya:
+  name: Maya
 python:
   name: Python
+portfolio:
+  name: Portfolio
+programming:
+  name: Programming
+unity:
+  name: Unity
+C#:
+  name: C#
+shader:
+  name: Shader
+animation:
+  name: Animation
+rigging:
+  name: Rigging
+gamedev:
+  name: Game Development
 
