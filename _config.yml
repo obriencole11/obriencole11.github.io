@@ -27,6 +27,7 @@ github:
 excerpt_separator: <!--more-->
 =======
 excerpt_separator:    <!--more-->
+show_related_posts:   false
 
 #Gems
 gems:
