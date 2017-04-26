@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-tags: [Python, Test]
+tags: [python, test]
 ---
 ![placeholder](http://placehold.it/800x400 "Large example image")
 
