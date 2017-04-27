@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -126,6 +127,20 @@
     
   </div>
   
+=======
+---
+layout: default
+title: Home
+pagination:
+  enabled: true
+  tag: portfolio
+---
+
+{% include reel.html %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+>>>>>>> refs/remotes/origin/master
   <div class="post">
     <h1 class="post-title">
       <a href="/2012/02/06/whats-jekyll/">
@@ -150,7 +165,7 @@
   </div>
   
 </div>
-
+<!--
 <div class="pagination">
   
     <span class="pagination-item older">Older</span>
@@ -159,6 +174,7 @@
     <span class="pagination-item newer">Newer</span>
   
 </div>
+<<<<<<< HEAD
 
 <!-- fluidvids.js -->
 <script src="/public/js/fluidvids/dist/fluidvids.js"></script>
@@ -173,3 +189,7 @@ fluidvids.init({
 
   </body>
 </html>
+=======
+-->
+{% include fluidvids.html %}
+>>>>>>> refs/remotes/origin/master
