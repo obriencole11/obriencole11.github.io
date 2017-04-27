@@ -4,13 +4,27 @@
  <title>Cole O'Brien Tech Art</title>
  <link href="https://obriencole11.github.io/atom.xml" rel="self"/>
  <link href="https://obriencole11.github.io/"/>
- <updated>2017-04-27T17:01:12+00:00</updated>
+ <updated>2017-04-27T17:04:22+00:00</updated>
  <id>https://obriencole11.github.io</id>
  <author>
    <name>Cole O'Brien</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Control Curve Library</title>
+   <link href="https://obriencole11.github.io/2017/04/25/tool/"/>
+   <updated>2017-04-25T00:00:00+00:00</updated>
+   <id>https://obriencole11.github.io/2017/04/25/tool</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/uploads/2017/04/27/control_creator.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-curve-generator-library-for-maya&quot;&gt;A curve generator library for Maya.&lt;/h3&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Recursion</title>
@@ -60,27 +74,6 @@
 
 &lt;iframe src=&quot;https://player.vimeo.com/video/167960016&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-</content>
- </entry>
- 
- <entry>
-   <title>Tool</title>
-   <link href="https://obriencole11.github.io/2012/02/06/tool/"/>
-   <updated>2012-02-06T00:00:00+00:00</updated>
-   <id>https://obriencole11.github.io/2012/02/06/tool</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
