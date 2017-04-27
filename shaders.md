@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Archive
+title: Shaders
+pagination:
+  enabled: true
+  tag: shader
 ---
 
 {% include filter_by_tag.html %}
 
 {% for post in site.posts %}{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})  
 {% endfor %}
-
-
