@@ -18,4 +18,10 @@ rigging:
   name: Rigging
 gamedev:
   name: Game Development
+reel:
+  name: Reel
+tool:
+  name: Tool
+project:
+  name: Project
 

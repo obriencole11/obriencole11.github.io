@@ -3,10 +3,8 @@ layout: default
 title: Home
 pagination:
   enabled: true
-  tag: portfolio
+  tag: project
 ---
-
-{% include reel.html %}
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -35,7 +33,7 @@ pagination:
   </div>
   {% endfor %}
 </div>
-<!--
+
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
@@ -52,5 +50,5 @@ pagination:
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
--->
+
 {% include fluidvids.html %}
