@@ -1,0 +1,46 @@
+
+{% assign counter = '0' %}
+<div class="posts">
+  {% for post in site.posts %}
+    {% for Tag in post.tags %}
+      {% if Tag == "reel" and counter < '1' %}
+        {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+        <div class="post">
+          <h1 class="post-title">
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h1>
+
+          {% assign post = page %}
+          {% if post.tags.size > 0 %}
+              {% capture tags_content %}{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} {% endcapture %}
+              {% for post_tag in post.tags %}
+                {% assign tag = site.data.tags[post_tag] %}
+                  {% if tag %}
+                      {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/reel/">#{{ tag.name }}</a> {% if forloop.last == false %}<!--comma-->{% endif %}{% endcapture %}
+                      {% assign tags_content = tags_content_temp %}
+                  {% endif %}
+              {% endfor %}
+          {% else %}
+              {% assign tags_content = '' %}
+          {% endif %}
+
+          <span class="post-date">{{ post.date | date_to_string }} {{ tags_content }}</span>
+
+          {{ post.excerpt }}
+          {% capture content_words %}
+            {{ post.content | number_of_words }}
+          {% endcapture %}
+          {% capture excerpt_words %}
+            {{ post.excerpt | number_of_words }}
+          {% endcapture %}
+          {% if excerpt_words != content_words %}
+           <a href="{{ post.url }}">Read more...</a>
+
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
