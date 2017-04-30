@@ -1,132 +1,28 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Cole O'Brien Tech Art</title>
- <link href="https://obriencole11.github.io/atom.xml" rel="self"/>
- <link href="https://obriencole11.github.io/"/>
- <updated>2017-04-27T17:04:22+00:00</updated>
- <id>https://obriencole11.github.io</id>
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
  <author>
-   <name>Cole O'Brien</name>
-   <email></email>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
  </author>
 
- 
+ {% for post in site.posts %}
  <entry>
-   <title>Control Curve Library</title>
-   <link href="https://obriencole11.github.io/2017/04/25/tool/"/>
-   <updated>2017-04-25T00:00:00+00:00</updated>
-   <id>https://obriencole11.github.io/2017/04/25/tool</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/uploads/2017/04/27/control_creator.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;a-curve-generator-library-for-maya&quot;&gt;A curve generator library for Maya.&lt;/h3&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;TBA&lt;/p&gt;
-</content>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- 
- <entry>
-   <title>Recursion</title>
-   <link href="https://obriencole11.github.io/2017/02/22/project/"/>
-   <updated>2017-02-22T00:00:00+00:00</updated>
-   <id>https://obriencole11.github.io/2017/02/22/project</id>
-   <content type="html">&lt;iframe src=&quot;https://player.vimeo.com/video/166597799&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;recursion-is-a-sci-fi-horror-short-film-built-in-the-unity-game-engine&quot;&gt;Recursion is a sci-fi horror short film built in the Unity game engine.&lt;/h3&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;The film follows a lone spaceman who, after a sudden crash landing, arrives in a dark dimension of endless barren grassland. With resources scarce, the spaceman ventures forth, slowly discovering that he is no longer alone in this world.&lt;/p&gt;
-
-&lt;p&gt;This project was built as my senior degree project at Massart. I worked on the majority of the assets including the programming, modelling, animation, and rigging. I worked with a sound designer for the score and an SFX artist for the foley. Additionally I worked with a UI artist to built the space helmet HUD. It took about 9 months to complete, and the film was screened at the animation departmental show at the Museum of Fine Arts in the spring of 2016.&lt;/p&gt;
-
-&lt;h2 id=&quot;modelling&quot;&gt;Modelling&lt;/h2&gt;
-
-&lt;p&gt;The low-poly modelling for the film was all done in Maya. A hi-poly version was created as well and baked on as a normal map.&lt;img src=&quot;/uploads/2017/04/27/SpacemanModel.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;texturing&quot;&gt;Texturing&lt;/h2&gt;
-
-&lt;p&gt;The texturing was done mostly in Quixel, using four maps, an Albedo, Metallic, Ambient Occlusion and Normal Map.&lt;img src=&quot;/uploads/2017/04/27/SpacemanTexture.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;rigging&quot;&gt;Rigging&lt;/h2&gt;
-
-&lt;p&gt;A custom rig was built for the character in maya, featuring fully IK/FK arms and legs, an IK head and a spline IK spine.&lt;img src=&quot;/uploads/2017/04/27/SpineRig.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;animation&quot;&gt;Animation&lt;/h2&gt;
-
-&lt;p&gt;The custom rig was used for both first person and third person animation. The animating was baked and then imported into unity.&lt;img src=&quot;/uploads/2017/04/27/FPSAnimation.gif&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/uploads/2017/04/27/3rdPersonAnimation.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;effects&quot;&gt;Effects&lt;/h2&gt;
-
-&lt;p&gt;The film included several particle effects built using the Unity Shuriken particle editor:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/uploads/2017/04/27/fireParticle.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;The fire was created with a hand painted image sequence&amp;nbsp;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/uploads/2017/04/27/fallingStarParticle.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;The fire effect was later modified for the crashing ship&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;the-demo&quot;&gt;The Demo&lt;/h2&gt;
-
-&lt;p&gt;In addition to the film, a playable demo was also created. It uses the same assets but allows the player to explore the world of the film as a procedurally generated landscape.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/167960016&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>Shader</title>
-   <link href="https://obriencole11.github.io/2012/02/06/shader/"/>
-   <updated>2012-02-06T00:00:00+00:00</updated>
-   <id>https://obriencole11.github.io/2012/02/06/shader</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Generalist Reel 2017</title>
-   <link href="https://obriencole11.github.io/2012/02/06/reel/"/>
-   <updated>2012-02-06T00:00:00+00:00</updated>
-   <id>https://obriencole11.github.io/2012/02/06/reel</id>
-   <content type="html">&lt;iframe src=&quot;https://player.vimeo.com/video/198592785&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Game</title>
-   <link href="https://obriencole11.github.io/2012/02/06/game/"/>
-   <updated>2012-02-06T00:00:00+00:00</updated>
-   <id>https://obriencole11.github.io/2012/02/06/game</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
+ {% endfor %}
 
 </feed>
