@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            COLE O'BRIEN TECH ART
+title:            Cole<br/>O'Brien<strong>Art</strong>
 tagline:          'Techart and Animation'
-description:      'My Portfolio and Blog for Animation and Tech Art'
+description:      'My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>'
 url:              https://obriencole11.github.io
 baseurl:          /
 
