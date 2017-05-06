@@ -253,23 +253,24 @@ a.sidebar-nav-item:focus {
 
 /* Background */
 .theme-base-cole {
-  background-color: #0f2a37;
+  background-color: #253238;
 }
 
 /* Dark Blue*/
 .theme-base-cole .sidebar, code, pre, .message {
-  background-color: #0c232e;
+  background-color: #192227;
 }
 
-/* Red */
+/* Highlight */
 .theme-base-cole .content a,
-.theme-base-cole .related-posts li a:hover {
-  color: #b34040;
+.theme-base-cole .related-posts li a:hover,
+.sidebar strong {
+  color: #0bb9d2;
 }
 
 /* Gray */
 .theme-base-cole, .post-date {
-  color: #5b7a87;
+  color: #d6e4e4;
 }
 
 /* White */
@@ -280,10 +281,26 @@ code,
 .message,
 blockquote,
 abbr,
-dt {
+dt{
   color: #e9faff;
 }
 
 .copyright {
   font-size: 0.75rem;
 }
+
+html {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.sidebar {
+  line-height: 1.25;
+}
+
+.sidebar h1 {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 0;
+  font-size: 2.75rem;
+  line-height: 1.25;
+}
+
