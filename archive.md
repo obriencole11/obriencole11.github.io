@@ -1,11 +1,19 @@
 ---
 layout: page
-title: Archive
+title: Work
 ---
 
-{% include filter_by_tag.html %}
+<p>Legacy projects and documentation</p>
+<!--{% include filter_by_tag.html %}-->
 
-{% for post in site.posts %}{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})  
+<h2>Shaders</h2>
+{% for post in site.posts %}&raquo; [ {{ post.title }} ]({{ post.url }})  
 {% endfor %}
 
+<h2>Tools</h2>
+{% for post in site.posts %} &raquo; [ {{ post.title }} ]({{ post.url }})  
+{% endfor %}
 
+<h2>Games</h2>
+{% for post in site.posts %}&raquo; [ {{ post.title }} ]({{ post.url }})  
+{% endfor %}
