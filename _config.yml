@@ -18,8 +18,9 @@ author:
 
 pagination:         
   enabled: true
-  per_page: 3
+  per_page: 10
   sort_field: 'date'
+  sort_reverse: true
 
 # Custom vars
 version:          2.1.0

@@ -264,7 +264,8 @@ a.sidebar-nav-item:focus {
 /* Highlight */
 .theme-base-cole .content a,
 .theme-base-cole .related-posts li a:hover,
-.sidebar strong {
+.sidebar strong,
+.sidebar-nav-item.active  {
   color: #0bb9d2;
 }
 
