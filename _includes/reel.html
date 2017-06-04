@@ -26,7 +26,7 @@
               {% assign tags_content = '' %}
           {% endif %}
 
-          <span class="post-date">{{ post.date | date_to_string }} {{ tags_content }}</span>
+          <span class="post-date"> <!--{{ post.date | date_to_string }} {{ tags_content }}--></span>
 
           {{ post.excerpt }}
           {% capture content_words %}
