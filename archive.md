@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Archive
+title: Work
 ---
 
-{% include filter_by_tag.html %}
+<p>Legacy projects and documentation</p>
+<!--{% include filter_by_tag.html %}-->
 
-{% for post in site.posts %}{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})  
-{% endfor %}
-
-
+{% include tags_for_work.html %}

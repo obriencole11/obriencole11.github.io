@@ -1,38 +1,39 @@
 ---
 layout: default
 title: Portfolio
-pagination:
-  enabled: true
-  tag: portfolio
 ---
 
 {% include reel.html %}
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
+    {% for postTag in post.tags %}
+      {% if postTag == "portfolio" %} 
+      <div class="post">
+        <h2 class="post-title">
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
 
-    {% include tags_for_page.html %}
+        {% include tags_for_page.html %}
 
-    <span class="post-date"> <!--{{ post.date | date_to_string }}--> {{ tags_content }}</span>
+        <span class="post-date"> <!--{{ post.date | date_to_string }}--> {{ tags_content }}</span>
 
-    {{ post.excerpt }}
-    {% capture content_words %}
-      {{ post.content | number_of_words }}
-    {% endcapture %}
-    {% capture excerpt_words %}
-      {{ post.excerpt | number_of_words }}
-    {% endcapture %}
-    {% if excerpt_words != content_words %}
-     <a href="{{ post.url }}">Read more...</a>
+        {{ post.excerpt }}
+        {% capture content_words %}
+          {{ post.content | number_of_words }}
+        {% endcapture %}
+        {% capture excerpt_words %}
+          {{ post.excerpt | number_of_words }}
+        {% endcapture %}
+        {% if excerpt_words != content_words %}
+         <a href="{{ post.url }}">Read more...</a>
 
-    {% endif %}
-  </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>
 <!--
