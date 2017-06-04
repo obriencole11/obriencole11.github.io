@@ -265,12 +265,12 @@ a.sidebar-nav-item:focus {
 .theme-base-cole .content a,
 .theme-base-cole .related-posts li a:hover,
 .sidebar strong,
-.sidebar-nav-item.active  {
+.sidebar-nav-item.active, i:hover  {
   color: #0bb9d2;
 }
 
 /* Gray */
-.theme-base-cole, .post-date {
+.theme-base-cole, .post-date, i {
   color: #d6e4e4;
 }
 
@@ -303,5 +303,9 @@ html {
   margin-top: 0;
   font-size: 2.75rem;
   line-height: 1.25;
+}
+
+.sidebar-nav-icons:hover {
+  text-decoration: none;
 }
 
