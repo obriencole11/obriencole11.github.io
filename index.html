@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Portfolio
 pagination:
   enabled: true
   tag: portfolio
@@ -11,11 +11,11 @@ pagination:
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
 
     {% include tags_for_page.html %}
 
