@@ -8,8 +8,8 @@ programming:
   name: Programming
 unity:
   name: Unity
-C#:
-  name: C#
+csharp:
+  name: CSharp
 shader:
   name: Shader
 animation:
