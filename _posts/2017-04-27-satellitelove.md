@@ -14,31 +14,59 @@ date: 2017-04-27 00:00
 
 
 
-
 ### Satellite Love is a non-linear visual novel
 <!--more-->
 
-Built for the [Global Game Jam 2016](http://globalgamejam.org/about), Kindlers was Developed over the course of 48 hours. I was the sole programmer and technical artist for a team of five (Game Designer, 3D Modeller, 2D Artist, Sound Designer).  
+Built for the [A Game By Its Cover](https://itch.io/jam/a-game-by-its-cover-2016) Game Jam, Satellite love is a visual novel prototype in which the player has conversations with various satellites orbiting earth. This was primarily a solo project, I handled all the programming and art assets. It was built over the course of a month in the Unity engine.
 
-The puzzle mechanic involved aligning multiple fire birds, slightly offset in position and rotation, while each following the same input. The game consisted of five fully playable levels.
+![](/blog/assets/satellitelove/satelliteLove.gif)
+<blockquote>‍Each satellite was unique, using randomly assembled character portraits</blockquote>
 
-### Programming
+###Programming
 
-As the sole programmer on the team, I had a hefty list of tasks:
+The premise of the game was built around the idea of doing a procedural visual novel, one where each run would feel new a unique.
 
-* Grid-based Movement system
-* Building a level creation scene for the designer
-* The Gameplay loop (Winning, Losing, ect...)
-* Various shaders and effects
+<strong>I had several programming tasks:</strong>
 
-![](/blog/assets/levelExample02.gif)
+* A procedural satellite generator
+* A basic dialogue system
+* Hooking up the game with a spreadsheet for easy content entering
+* An event system to handle the game flow
 
-The goal of the game was to align each character on glowing targets at the same time
+### Shaders and FX
 
-![](/blog/assets/character.gif)
+This project was a fun one shader wise. I wanted to emulate a hand-drawn art style, but have as much control as I can. I ended up working most of the hand-drawn effects into custom shaders. Here's a couple of my favorites:
 
-I also worked on the cloth simulation for the characters
 
-![](/blog/assets/levelExample01.gif)
+#### Animated fill shader
 
-In addition to programming, I also acted as the Art Director for the game, leading the overall aesthetic choices for the game. While most of the assets were created by teammates, the visuals were assembled and implemented by myself.
+I created a shader that would give the impression of the art being drawn in real time. The shader takes a texture and a gradient ramp, and uses a 'fill' variable that can animate the drawing.
+
+![](/blog/assets/satellitelove/titleShader.gif)
+
+<strong>The title animation was controlled through a shader
+</strong>
+
+![](/blog/assets/satellitelove/portraitDemo.gif)
+
+<blockquote>‍A similar shader was used for the character portraits</blockquote>‍
+
+#### Satellite Icon Shader
+
+I wanted more control over the satellite icons as well as have infinitely scaleable textures. To achieve that, I ended up actually calculating the texture and animation all in shader.
+
+![](/blog/assets/satellitelove/satelliteShader.gif)
+
+<blockquote>‍The satellite sprites were generated entirely in shader</blockquote>‍
+
+#### Shimmer Shader
+
+To further capture the hand-drawn style, I wanted to emulate the common 2D animation practice of using "shimmer" frames. For textures I used a shader that distorted the uvs based on Gaussian noise. For the outline of the planet I actually used perlin noise on a line renderer. For both instances, time was stepped to be at a slower framerate to give the impression of being traditionally animated.
+
+![](/blog/assets/satellitelove/finalTitle.gif)
+
+<blockquote>‍Noise was added to assets to create a hand drawn look</blockquote>‍
+
+![](/blog/assets/satellitelove/noise.gif)
+
+<blockquote>‍The planet outline used perlin noise on a line renderer</blockquote>‍

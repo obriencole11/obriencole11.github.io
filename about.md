@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-![](/uploads/2017/04/26/newProfile2017.png)
+![](/blog/assets/about/newProfile2017_compressed.jpg)
 
 As a generalist, I come from a background in 2D and 3D animation as well as a strong foundation in graphic design and programming. Aesthetically, I am drawn to vivid atmospheric and immersive experiences, and strive to create projects that explore new visual territory. On the development side, I enjoy challenging myself to create flexible and efficient animation workflows.
 

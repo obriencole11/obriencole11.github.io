@@ -26,26 +26,26 @@ This project was built as my senior degree project at Massart. I worked on the m
 ## Modelling
 
 
-The low-poly modelling for the film was all done in Maya. A hi-poly version was created as well and baked on as a normal map.![](/uploads/2017/04/27/SpacemanModel.gif)
+The low-poly modelling for the film was all done in Maya. A hi-poly version was created as well and baked on as a normal map.![](/blog/assets/recursion/SpacemanModel.gif)
 
 
 ## Texturing
 
 
-The texturing was done mostly in Quixel, using four maps, an Albedo, Metallic, Ambient Occlusion and Normal Map.![](/uploads/2017/04/27/SpacemanTexture.gif)
+The texturing was done mostly in Quixel, using four maps, an Albedo, Metallic, Ambient Occlusion and Normal Map.![](/blog/assets/recursion/SpacemanTexture.gif)
 
 
 ## Rigging
 
 
-A custom rig was built for the character in maya, featuring fully IK/FK arms and legs, an IK head and a spline IK spine.![](/uploads/2017/04/27/SpineRig.gif)
+A custom rig was built for the character in maya, featuring fully IK/FK arms and legs, an IK head and a spline IK spine.![](/blog/assets/recursion/SpineRig.gif)
 
 
 ## Animation
 
 
-The custom rig was used for both first person and third person animation. The animating was baked and then imported into unity.![](/uploads/2017/04/27/FPSAnimation.gif)
-![](/uploads/2017/04/27/3rdPersonAnimation.gif)
+The custom rig was used for both first person and third person animation. The animating was baked and then imported into unity.![](/blog/assets/recursion/FPSAnimation.gif)
+![](/blog/assets/recursion/3rdPersonAnimation.gif)
 
 
 ## Effects
@@ -53,7 +53,7 @@ The custom rig was used for both first person and third person animation. The an
 
 The film included several particle effects built using the Unity Shuriken particle editor:
 
-![](/uploads/2017/04/27/fireParticle.gif)
+![](/blog/assets/recursion/fireParticle.gif)
 
 <blockquote>The fire was created with a hand painted image sequence&nbsp;</blockquote>![](/uploads/2017/04/27/fallingStarParticle.gif)
 
