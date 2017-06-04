@@ -13,8 +13,8 @@ url:              https://obriencole11.github.io
 baseurl:          /
 
 author:
-  name:           'Cole O''Brien'
-  url:            https://twitter.com/mdo
+  name:           'Cole OBrien'
+  url:            https://twitter.com/
 
 pagination:         
   enabled: true

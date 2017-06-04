@@ -25,6 +25,13 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+
+      {% for icon in site.data.icons %}
+          <a class=sidebar-nav-icons href="{{ icon[1].url }}">
+            <i class="{{ icon[1].icon }}" aria-hidden="true"></i>
+          </a>
+      {% endfor %}
+
     </nav>
 
     <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
