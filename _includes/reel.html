@@ -6,11 +6,11 @@
       {% if Tag == "reel" and counter < '1' %}
         {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
         <div class="post">
-          <h1 class="post-title">
+          <h2 class="post-title">
             <a href="{{ post.url }}">
               {{ post.title }}
             </a>
-          </h1>
+          </h2>
 
           {% assign post = page %}
           {% if post.tags.size > 0 %}
