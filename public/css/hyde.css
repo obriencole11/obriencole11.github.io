@@ -264,7 +264,6 @@ a.sidebar-nav-item:focus {
 /* Highlight */
 .theme-base-cole .content a,
 .theme-base-cole .related-posts li a:hover,
-.sidebar strong,
 .sidebar-nav-item.active, i:hover  {
   color: #0bb9d2;
 }
@@ -281,6 +280,7 @@ strong,
 code,
 .message,
 blockquote,
+.sidebar strong,
 abbr,
 dt{
   color: #e9faff;
@@ -301,8 +301,8 @@ html {
 .sidebar h1 {
   font-family: 'Roboto Slab', serif;
   margin-top: 0;
-  font-size: 2.75rem;
-  line-height: 1.25;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .sidebar-nav-icons:hover {
