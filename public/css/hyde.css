@@ -231,6 +231,8 @@ a.sidebar-nav-item:focus {
   color: #6a9fb5;
 }
 
+
+
 /* Magenta */
 .theme-base-0e .sidebar {
   background-color: #aa759f;
@@ -253,7 +255,7 @@ a.sidebar-nav-item:focus {
 
 /* Background */
 .theme-base-cole {
-  background-color: #253238;
+  background-color: #212d32;
 }
 
 /* Dark Blue*/
@@ -270,7 +272,7 @@ a.sidebar-nav-item:focus {
 
 /* Gray */
 .theme-base-cole, .post-date, i {
-  color: #d6e4e4;
+  color: #688b98;
 }
 
 /* White */
@@ -288,6 +290,10 @@ dt{
 
 .copyright {
   font-size: 0.75rem;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 html {
@@ -308,4 +314,5 @@ html {
 .sidebar-nav-icons:hover {
   text-decoration: none;
 }
+
 

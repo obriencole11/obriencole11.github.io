@@ -1,10 +1,12 @@
 ---
 layout: post
-title: How This Site Was Built
+title: Curve Library
 tags:
-- blog
+- maya
+- python
 - programming
-date: 2017-00-00 00:00
+- tool
+date: 2017-04-26 00:00
 ---
 
 ![](/blog/assets/curvetools/control_creator.gif)
