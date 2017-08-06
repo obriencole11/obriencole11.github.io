@@ -10,11 +10,11 @@
 {% endfor %}
 </p>
 
-<h2>Shaders</h2>
+<h2>Tools</h2>
 <p>
 {% for post in site.posts %} 
 	{% for tag in post.tags %}
-		{% if tag == "shader" %} 
+		{% if tag == "tool" %} 
 			&raquo; <a href="{{ post.url }}">{{ post.title }}</a>
 			<br/>
 		{% endif %} 
@@ -22,11 +22,11 @@
 {% endfor %}
 </p>
 
-<h2>Tools</h2>
+<h2>Shaders</h2>
 <p>
 {% for post in site.posts %} 
 	{% for tag in post.tags %}
-		{% if tag == "tool" %} 
+		{% if tag == "shader" %} 
 			&raquo; <a href="{{ post.url }}">{{ post.title }}</a>
 			<br/>
 		{% endif %} 
