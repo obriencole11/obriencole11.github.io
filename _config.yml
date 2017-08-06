@@ -6,11 +6,11 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Cole O'BrienTest 
+title:            Cole O'BrienTest2
 tagline:          "Technical Art and Animation"
 description:      "My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>"
 url:              https://obriencole11.github.io
-baseurl:          
+baseurl:          /
 author:           "Cole OBrien"
 name:             "Cole OBrien"
 url:              https://twitter.com/cole_obrien
