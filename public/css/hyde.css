@@ -255,24 +255,24 @@ a.sidebar-nav-item:focus {
 
 /* Background */
 .theme-base-cole {
-  background-color: #263239;             ;
+  background-color: #2c3033;  
 }
 
 /* Dark Blue*/
 .theme-base-cole .sidebar, code, pre, .message {
-  background-color: #1b2429  ;
+  background-color:   #1a1c1d;
 }
 
 /* Highlight */
 .theme-base-cole .content a,
 .theme-base-cole .related-posts li a:hover,
 .sidebar-nav-item.active, i:hover  {
-  color: #79c9c2;
+  color: #55dcf7;
 }
 
 /* Gray */
 .theme-base-cole, .post-date, i {
-  color: #748588;
+  color: #99aeb5;
 }
 
 
@@ -286,15 +286,29 @@ blockquote,
 .sidebar strong,
 abbr,
 dt{
-  color: #ceccce;
+  color: #ebfaff;
 }
 
+
+.image tbody tr:nth-child(odd) td, 
+.image tbody tr:nth-child(odd) th,
+table.image,
+.image caption
+{
+  background-color: transparent;
+  border: 0px;    
+}
+
+table.image img {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
 .copyright {
   font-size: 0.75rem;
 }
 
-p {
+p, ol, ul {
   font-size: 0.9rem;
 }
 
