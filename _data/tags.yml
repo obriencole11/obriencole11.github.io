@@ -24,4 +24,6 @@ tool:
   name: Tool
 project:
   name: Project
+blog:
+  name: Blog
 

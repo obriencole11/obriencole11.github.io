@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Archive
 ---
 
 {% include filter_by_tag.html %}
