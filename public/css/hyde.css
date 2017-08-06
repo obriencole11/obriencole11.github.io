@@ -266,12 +266,12 @@ a.sidebar-nav-item:focus {
 /* Highlight */
 .theme-base-cole .content a,
 .theme-base-cole .related-posts li a:hover,
-.sidebar-nav-item.active, i:hover  {
+.sidebar-nav-item.active, i:hover, i   {
   color: #55dcf7;
 }
 
 /* Gray */
-.theme-base-cole, .post-date, i {
+.theme-base-cole, .post-date{
   color: #99aeb5;
 }
 
@@ -285,6 +285,7 @@ code,
 blockquote,
 .sidebar strong,
 abbr,
+i:hover,
 dt{
   color: #ebfaff;
 }

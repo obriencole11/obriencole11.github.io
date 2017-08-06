@@ -20,16 +20,17 @@ date: 2017-04-27 00:00
 Built for the [A Game By Its Cover](https://itch.io/jam/a-game-by-its-cover-2016) Game Jam, Satellite love is a visual novel prototype in which the player has conversations with various satellites orbiting earth. This was primarily a solo project, I handled all the programming and art assets. It was built over the course of a month in the Unity engine.
 
 ![](/blog/assets/satellitelove/satelliteLove.gif)
-<blockquote>‍Each satellite was unique, using randomly assembled character portraits</blockquote>
 
-###Programming
+Each satellite was unique, using randomly assembled character portraits
+
+### Programming
 
 The premise of the game was built around the idea of doing a procedural visual novel, one where each run would feel new a unique.
 
 <strong>I had several programming tasks:</strong>
 
 * A procedural satellite generator
-* A basic dialogue system
+* A basic dialog system
 * Hooking up the game with a spreadsheet for easy content entering
 * An event system to handle the game flow
 
@@ -49,7 +50,7 @@ I created a shader that would give the impression of the art being drawn in real
 
 ![](/blog/assets/satellitelove/portraitDemo.gif)
 
-<blockquote>‍A similar shader was used for the character portraits</blockquote>‍
+A similar shader was used for the character portraits
 
 #### Satellite Icon Shader
 
@@ -57,7 +58,7 @@ I wanted more control over the satellite icons as well as have infinitely scalea
 
 ![](/blog/assets/satellitelove/satelliteShader.gif)
 
-<blockquote>‍The satellite sprites were generated entirely in shader</blockquote>‍
+The satellite sprites were generated entirely in shader
 
 #### Shimmer Shader
 
@@ -65,8 +66,8 @@ To further capture the hand-drawn style, I wanted to emulate the common 2D anima
 
 ![](/blog/assets/satellitelove/finalTitle.gif)
 
-<blockquote>‍Noise was added to assets to create a hand drawn look</blockquote>‍
+Noise was added to assets to create a hand drawn look
 
 ![](/blog/assets/satellitelove/noise.gif)
 
-<blockquote>‍The planet outline used perlin noise on a line renderer</blockquote>‍
+The planet outline used perlin noise on a line renderer
