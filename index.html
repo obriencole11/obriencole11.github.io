@@ -16,9 +16,11 @@ title: Portfolio
           </a>
         </h2>
 
-        {% include tags_for_page.html %}
+        {% comment %}
+          {% include tags_for_page.html %}
 
-        <span class="post-date"> <!--{{ post.date | date_to_string }}--> {{ tags_content }}</span>
+          <span class="post-date"> <!--{{ post.date | date_to_string }}{{ tags_content }}--></span>
+        {% endcomment %}
 
         {{ post.excerpt }}
         {% capture content_words %}
