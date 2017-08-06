@@ -6,15 +6,14 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Cole O'Brien 
-tagline:          'Techart and Animation'
-description:      'My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>'
+title:            Cole O'BrienTest 
+tagline:          "Technical Art and Animation"
+description:      "My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>"
 url:              https://obriencole11.github.io
-baseurl:          /
-
-author:         'Cole OBrien'
-name:           'Cole OBrien'
-url:            https://twitter.com/cole_obrien
+baseurl:          
+author:           "Cole OBrien"
+name:             "Cole OBrien"
+url:              https://twitter.com/cole_obrien
 
 paginate: 5
 paginate_path: "/blog/page:num/"
