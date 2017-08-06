@@ -7,7 +7,7 @@ tags:
 date: 2017-07-31 00:00
 ---
 
-![](/blog/assets/thiswebsite/mysetup.png)
+![](/blog/assets/thiswebsite/mysetup.PNG)
 
 This site is built using [Jekyll](http://jekyllrb.com/) and hosted through [Github Pages](https://pages.github.com/). The design is based on the [Hyde](http://hyde.getpoole.com/) theme, and modified to suit a portfolio-structure.
 
