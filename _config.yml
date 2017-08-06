@@ -7,13 +7,13 @@ permalink:        pretty
 
 # Setup
 title:            Cole O'Brien 
-tagline:          'Technical Art and Animation'
-description:      'My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>'
-url:              https://coleobrienart.com
-baseurl:          /
+tagline:          "Technical Art and Animation"
+description:      "My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>"
+url:              'https://coleobrienart.com'
+baseurl:          '/'
 
-author:         'Cole OBrien'
-name:           'Cole OBrien'
+author:         "Cole OBrien"
+name:           "Cole OBrien"
 url:            https://twitter.com/cole_obrien
 
 paginate: 5
