@@ -10,7 +10,7 @@ title:            Cole O'Brien
 tagline:          "Technical Art and Animation"
 description:      "My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>"
 url:              'https://coleobrienart.com'
-baseurl:          '/'
+baseurl:          ''
 
 author:         "Cole OBrien"
 name:           "Cole OBrien"
