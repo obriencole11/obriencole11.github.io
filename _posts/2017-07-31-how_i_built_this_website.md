@@ -25,7 +25,7 @@ Fast forward a year or two, I'm pursuing animation and I need a portfolio site. 
 
 ## Websites are a lot of work
 
-Today if you want to build your own site from scratch, you’re gonna hit a series of barriers. The first and I’d say the lowest barrier, is HTML and CSS. Compared to real programming languages, they’re relatively simple to learn, but do take time to fully understand. 
+Today if you want to build your own site from scratch, you’re going to hit a series of barriers. The first and I’d say the lowest barrier, is HTML and CSS. Compared to real programming languages, they’re relatively simple to learn, but do take time to fully understand. 
 
 Then there's the design barrier. Turns out it's really easy to make a poorly designed site. One of the first traps newcomers fall into is attempting to make their site truly unique, with animated UI and fancy effects. While skilled web developers can pull it off, this typically amounts to a terrible user experience and is the reason so many sites look so similar.
 
@@ -39,7 +39,7 @@ So really in practice one of my first decisions was that I need to take...
 
 Once I admitted I was not *actually* building my site from scratch, it was more of a decision of how much scratch was going to make up the site.
 
-So at first my shortcuts were mostly in scope. I said *It’ll be just limited to one page* and basically built a landing page that consisted of a bunch of fancy links to other websites. It didn’t really need to exist though, at that point I could’ve just made a [Behance](https://www.behance.net/) and it’d have a better user experience.
+So at first my shortcuts were mostly in scope. I said *It’ll be just limited to one page* and basically built a landing page that consisted of a bunch of fancy links to other websites. It didn’t really need to exist though, at that point I could’ve just made a [Behance](https://www.behance.net/) and it would have a better user experience.
 
 Then I decided to just use a website template. And for some that may be a solution. I found some pretty nice theme sites that basically just give you free code to tear apart. One of the better sites I found was [HTML5 Up](https://html5up.net/), it’s basically a bunch of open source, fully-responsive, website themes. The problem was however, once I started using them I quickly hit a complexity wall. While I had full control of the code, the back end work flow was miserable. If you wanted to add a new portfolio piece you’d have to dive back into the HTML and copy and paste a bunch of code. I made one version, and when it came time to update it I ended up just throwing it out and seeking out a better solution.
 
@@ -47,14 +47,14 @@ At this point I began to enter the wild world of the back-end CMS (Content Manag
 
 While I was still reluctant to sell my design freedom to squarespace or wix, I ended up deciding [WebFlow](https://webflow.com/) was my best option for control to speed ratio. For those not familiar it's similar to an online [Dreamweaver](http://www.adobe.com/products/dreamweaver.html) in terms of control.
 
-But at this point I still wasn’t happy with it. Besides not being a site I could call my own, it was expensive. Webflow is like $20 a month and post-grad me was not financially stable enough to pay that forever. So before I set out to build *yet another* portfolio site, I needed to ask myself...
+But at this point I still wasn’t happy with it. Besides not being a site I could call my own, it was expensive. Webflow is around $20 a month and post-grad me was not financially stable enough to pay that forever. So before I set out to build *yet another* portfolio site, I needed to ask myself...
 
 ## Why Build Your Own Website?
 
 Sure I should have questioned this from the get go, but I never really did. I like to think I was driven by the thrill of the challenge but to be honest, it was mostly my own foolish pride. So this time I needed to establish concrete reasons I should invest more time into this endeavor. In the end I established three pillars to support this choice, and I stand by them today:
 
 #### Cost
-The most influential reason I decided to build my own site again was price. If I was gonna spend the time, I better be saving money doing it.
+The most influential reason I decided to build my own site again was price. If I was going to spend the time, I better be saving money doing it.
 
 #### Flexibility
 
@@ -62,7 +62,7 @@ For a while my portfolio has been a mix of strange mediums. On the same portfoli
 
 #### Fun
 
-I’d be lying if I said this wasn’t a contributing factor. But to be honest I would have never have went down this road if I didn’t find web development fun. Web design is like a playground of visual and programming problems, it's part of the reason I ended up in technical art. And it is pretty satisfying at the end of the day to have something you made that works. Developing your own site is gonna be work, no matter what shortcut you take, might as well enjoy yourself along the way.
+I’d be lying if I said this wasn’t a contributing factor. But to be honest I would have never have went down this road if I didn’t find web development fun. Web design is like a playground of visual and programming problems, it's part of the reason I ended up in technical art. And it is pretty satisfying at the end of the day to have something you made that works. Developing your own site is going to be work, no matter what shortcut you take. You might as well enjoy yourself along the way.
 
 ## My Setup
 
@@ -71,7 +71,7 @@ As I mentioned at the start, this site is hosted for free using [Github Pages](h
 It does come with a few restrictions:
 * The code will be public. For a portfolio site this isn’t an issue though, everything on it is public anyway!
 * You need access to all the website code. This should be a no brainer though.
-* It only supports static sites. This means no fancy dynamic setups with Ruby or PHP. So you can’t host a [Wordpress](https://wordpress.com/) site there. Again this was a non issue, the site was gonna be static anyway.
+* It only supports static sites. This means no fancy dynamic setups with Ruby or PHP. So you can’t host a [Wordpress](https://wordpress.com/) site there. Again this was a non issue, the site was going to be static anyway.
 
 On the backend, the site is using [Jekyll](http://jekyllrb.com/), which Github pages has specific support for. Like Harp from earlier, its a static website generator. Basically your site is separated into HTML chunks and is built on demand. All your data entries are done in markdown files, which are basically text files with some simple formatting options.
 
@@ -83,7 +83,7 @@ Now I don't wish to include a complete tutorial for setting up a Jekyll site, bu
 
 #### HTML and CSS
 
-No matter what you're gonna need to know these two. As I said, they're not terribly difficult, especially if you already know how to program. Javascript is a bit more tricky, but honestly since learning it, I’ve rarely had to use it. So many of the problems you’d use Javascript for are fairly common, and there is no shortage of free scripts you can use to avoid writing with it entirely.
+No matter what you're going to need to know these two. As I said, they're not terribly difficult, especially if you already know how to program. Javascript is a bit more tricky, but honestly since learning it, I’ve rarely had to use it. So many of the problems you’d use Javascript for are fairly common, and there is no shortage of free scripts you can use to avoid writing with it entirely.
 
 For learning all three though, I highly recommend [Codecademy](https://www.codecademy.com). Its free and offers a hands on way to learn the languages. I found it to be far easier to learn with as opposed to with a video or text tutorial.
 
