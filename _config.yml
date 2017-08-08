@@ -32,7 +32,7 @@ twitter:
   username:        cole_obrien
   url: https://twitter.com/cole_obrien
 
-logo:              \blog\assets\logo.png
+logo:              /blog/assets/logo.png
 
 social:
   name: Cole OBrien
