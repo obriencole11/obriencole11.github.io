@@ -3,7 +3,6 @@ layout: post
 title: Milwaukee Enviroment
 tags:
 - shader
-- gamedev
 date: 2017-04-26 00:00
 ---
 

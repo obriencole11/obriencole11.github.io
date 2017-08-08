@@ -55,12 +55,13 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
 @media (min-width: 48em) {
   .sidebar {
+    padding: 2rem 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -88,7 +89,9 @@ html {
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
-  display: block;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  display: inline-block;
   line-height: 1.75;
 }
 a.sidebar-nav-item:hover,
@@ -97,6 +100,16 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+@media (min-width: 48em) {
+  .sidebar-nav-item {
+    display: block;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+}
+.sidebar-nav-icons {
+  display: inline-block;
 }
 
 /* Sticky sidebar
@@ -122,8 +135,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 48em) {
@@ -131,6 +144,8 @@ a.sidebar-nav-item:focus {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
+    padding-top:    4rem;
+    padding-bottom: 4rem;
   }
 }
 
@@ -163,6 +178,16 @@ a.sidebar-nav-item:focus {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem;
+  }
+}
+
+/* Posts */
+.post {
+    margin-bottom: 2em;
+  }
+@media (min-width: 48em) {
+  .post {
+    margin-bottom: 4em;
   }
 }
 
