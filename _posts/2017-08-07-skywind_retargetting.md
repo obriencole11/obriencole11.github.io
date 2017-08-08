@@ -4,8 +4,6 @@ title: Retargetting Tools For Skywind
 tags:
 - tool
 - maya
-- gamedev
-- animation
 - portfolio
 date: 2017-04-26 00:00
 ---

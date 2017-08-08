@@ -9,7 +9,7 @@ date: 2017-07-31 00:00
 
 ![](/blog/assets/thiswebsite/mysetup.PNG)
 
-This site is built using [Jekyll](http://jekyllrb.com/) and hosted through [Github Pages](https://pages.github.com/). The design is based on the [Hyde](http://hyde.getpoole.com/) theme and modified to suit a portfolio-structure.
+This site is built using [Jekyll](http://jekyllrb.com/) and hosted through [Github Pages](https://pages.github.com/). The design is based on the [Hyde](http://hyde.getpoole.com/) theme and modified to suit a portfolio-structure. The source code for this site can be found [here](https://github.com/obriencole11/obriencole11.github.io).
 
 **This solution costs me $0 but has cost me far more in time.**
 

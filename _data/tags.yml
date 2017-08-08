@@ -26,4 +26,8 @@ project:
   name: Project
 blog:
   name: Blog
+game:
+  name: Game
+unreal:
+  name: Unreal
 

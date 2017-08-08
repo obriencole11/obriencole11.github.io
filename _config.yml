@@ -8,12 +8,11 @@ permalink:        pretty
 # Setup
 title:            Cole O'Brien
 tagline:          "Technical Art and Animation"
-description:      "My Portfolio and Blog for <strong>Animation</strong> and <strong>Technical Art</strong>"
-url:              https://obriencole11.github.io
+description:      "My Portfolio and Blog for Animation and Technical Art"
+url:              https://coleobrienart.com
 baseurl:          '/'
 author:           "Cole OBrien"
 name:             "Cole OBrien"
-url:              https://twitter.com/cole_obrien
 
 paginate: 5
 paginate_path: "/blog/page:num/"
@@ -26,8 +25,25 @@ github:
   repo:           https://github.com/obriencole11/obriencole11.github.io
 excerpt_separator:    <!--more-->
 show_related_posts:   false
+google_analytics: UA-104250424-1
+
+# SEO
+twitter:
+  username:        cole_obrien
+  url: https://twitter.com/cole_obrien
+
+logo:              \blog\assets\logo.png
+
+social:
+  name: Cole OBrien
+  links:
+    - https://twitter.com/cole_obrien
+    - https://www.facebook.com/cole.obrien.754
+    - https://www.linkedin.com/in/cole-o-brien-7b8561b0/
+    - https://github.com/obriencole11
 
 #Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-seo-tag
