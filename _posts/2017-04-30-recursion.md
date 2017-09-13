@@ -2,7 +2,6 @@
 layout: post
 title: Recursion
 tags:
-- portfolio
 - project
 - animation
 date: 2017-04-30 00:00
