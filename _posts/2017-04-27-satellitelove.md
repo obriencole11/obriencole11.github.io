@@ -2,8 +2,7 @@
 layout: post
 title: Satellite Love
 tags:
-- portfolio
-- gamedev
+- game
 - unity
 - project
 date: 2017-04-27 00:00
