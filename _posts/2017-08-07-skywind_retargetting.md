@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Retargetting Tools For Skywind
+title: Animation Pipeline Tools For Skywind
 tags:
 - tool
 - maya
 - portfolio
-date: 2017-04-26 00:00
+date: '2017-04-26'
 ---
 
 
-<iframe src="https://player.vimeo.com/video/167897879" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://youtu.be/KLH0CXqAAMk" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 ### Pipeline tools for animation generation

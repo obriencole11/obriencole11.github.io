@@ -2,7 +2,6 @@
 layout: post
 title: Satellite Love
 tags:
-- portfolio
 - game
 - unity
 - project
