@@ -14,7 +14,7 @@ date: 2017-04-11 00:00
 ### Assets for a shader-animation filled music video
 <!--more-->
 
-Milwaukee is a long-term project I have been working on with a fellow animator [John F. Quirk](https://www.johnfquirk.com/). The project will be a music video for local artist [CYBERBULLY](https://cyberbullyallcaps.bandcamp.com/album/aby). Each of our sequences will be very different, my part however is built entirely in **Unreal Engine**. 
+Milwaukee is an in-progress music video I have been working on with a fellow animator for local artist [CYBERBULLY](https://cyberbullyallcaps.bandcamp.com/album/aby). Each of our sequences will be very different, my part however is built entirely in **Unreal Engine**. 
 
 So far, environment assets for the first scene have been finished; a bright and dreamlike field of anemones.
 
@@ -49,7 +49,7 @@ The basic process goes like this:
 2. Adjust the height and positioning a tad using world space noise
 3. Add procedural color based on world space noise
 
-A higher resolution version is available [here]().
+A higher resolution version is available [here](\blog\assets\milwaukeescene\grassshader.png).
 
 ![Grass Vertex Color](\blog\assets\milwaukeescene\grass_vert.png)
 
@@ -90,7 +90,7 @@ Its a bit more complex than the grass as more movement is being calculated. The 
 4. Bend the tree into different poses using the morph targets
 5. Add procedural color
 
-You can find a high res version [here]().
+You can find a high res version [here](\blog\assets\milwaukeescene\treeShader.png).
 
 #### Clouds and Distant Mountains
 
@@ -108,10 +108,14 @@ The walkway uses worldspace noise and tessellation to create organic looking gro
 
 ![World Texture Example](\blog\assets\milwaukeescene\walkway_worldspace.gif)
 
+Because the texture is generated in world space, there is no need for traditional texturing.
+
 ![Walkway Shader](\blog\assets\milwaukeescene\walkway_shader.png)
 
-In order to meld with the grass easily, I wrote a script to bake the worldspace position of the walkway into a texture. The grass shader then uses this as a mask.
+The walkway shader graph is rather simple in comparison. Noise is generated and then used as both a gradient ramp for the color as well as a height map.
 
 ![Shader Clipping Example](\blog\assets\milwaukeescene\walkway_clipping.gif)
+
+In order to meld with the grass easily, I wrote a script to bake the worldspace position of the walkway into a texture. The grass shader then uses this as a mask. Here is an example of the results:
 
 ![Shader Texture Sample](\blog\assets\milwaukeescene\walkway_mask.png)
