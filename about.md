@@ -14,7 +14,7 @@ I studied animation at the Massachusetts College of Art and Design, where I help
 ## Contact
 
 Feel free to shoot me an email at **obriencole11@gmail.com** <br/>
-Click [here](http://obriencole11.github.io/portfolio/img/resume.pdf) for my current resume
+Click [here](/blog/assets/about/resume.pdf) for my current resume
 
 Oh and for those interested, this is [how I built this website](/2017/07/31/how_i_built_this_website).
 
