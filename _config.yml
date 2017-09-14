@@ -31,7 +31,8 @@ google_analytics: UA-104250424-1
 twitter:
   username:        cole_obrien
   url: https://twitter.com/cole_obrien
-  image: /blog/assets/logo.png
+
+image: /blog/assets/logo.png
 
 logo:              /blog/assets/logo.png
 
