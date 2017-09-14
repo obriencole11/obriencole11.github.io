@@ -4,6 +4,7 @@ title: How I Built This Website
 tags:
 - blog
 - programming
+image: /blog/assets/thiswebsite/mysetup.PNG
 date: 2017-07-31 00:00
 ---
 
