@@ -3,7 +3,6 @@ layout: post
 title: Milwaukee Enviroment
 tags:
 - shader
-- portfolio
 date: 2017-04-11 00:00
 ---
 

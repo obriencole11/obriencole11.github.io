@@ -8,11 +8,12 @@ permalink:        pretty
 # Setup
 title:            Cole O'Brien
 tagline:          "Technical Animation"
-description:      "My Portfolio and Blog for Technical Animation"
+description:      "Technical Animator"
 url:              https://coleobrienart.com
 baseurl:          '/'
 author:           "Cole OBrien"
 name:             "Cole OBrien"
+encoding: utf-8
 
 paginate: 10
 paginate_path: "/blog/page:num/"

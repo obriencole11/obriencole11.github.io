@@ -4,7 +4,6 @@ title: Animation Pipeline Tools For Skywind
 tags:
 - tool
 - maya
-- portfolio
 date: '2017-08-07'
 ---
 
